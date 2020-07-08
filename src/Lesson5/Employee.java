@@ -1,24 +1,25 @@
 package Lesson5;
 
-public class Employee
+public class Employee//We added "public", so we can see class's insides from other packages
     {
     int id;
-    String surename;
+    String surname;
     int age;
     double salary;
-    String departament;
+    String department;
 
-    Employee(int id,String surename,int age,double salary,String departament)//Constructore
+    Employee(int id,String surname,int age,double salary,String departament)//Constructore
         {
             this.id=id;
-            this.surename=surename;
+            this.surname =surname;
             this.age=age;
             this.salary=salary;
-            this.departament=departament;
+            this.department =departament;
         }
-    public Employee(String surename, int age)
+    public Employee(String surname, int age)// We added public ,
+    // so we could call it in another package
         {
-        this.surename=surename;
+        this.surname =surname;
         this.age=age;
         }
 
