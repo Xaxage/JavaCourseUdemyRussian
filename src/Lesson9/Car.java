@@ -1,12 +1,7 @@
-import java.sql.SQLOutput;
-import java.util.jar.JarOutputStream;
+package Lesson9;
 
 public class Car {
     int z=5;
-
-
-
-
     int a=10;
     String color;
     String engine;
@@ -15,16 +10,17 @@ public class Car {
     // IT BELONGS TO CLASS!!!
     static int counter;
 
-    Car(String color,String engine){
+    Car(String color, String engine){
         counter++;
         this.color=color;
         this.engine=engine;
     }
 
-    /*public static void changA(int b){ }
+    /*
+    public static void changA(int b){ }
     //this.a=b;//It isn't working cause static method depends on object.ПРОТИВОРЕЧИЕ
-
-    {*/
+    {
+    */
 
     public void showColor() {
         System.out.println("Car's color: " + color);
