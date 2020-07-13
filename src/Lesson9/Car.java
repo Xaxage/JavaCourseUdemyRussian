@@ -10,7 +10,7 @@ public class Car {
     // IT BELONGS TO CLASS!!!
     static int counter;
 
-    Car(String color, String engine){
+    public Car(String color, String engine){
         counter++;
         this.color=color;
         this.engine=engine;

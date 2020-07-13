@@ -19,7 +19,7 @@ public class A {
     public static void main(String[] args) {
         Lesson9.Car c1=new Lesson9.Car("Yellow","V6");
         //Without importing we still can call everything from this package
-        Car c2=new Car("Black","V4");
+        Car c2=new Car("White","V4");
         System.out.println(counter);
     }
 }

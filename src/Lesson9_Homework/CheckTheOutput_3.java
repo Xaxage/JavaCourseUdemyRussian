@@ -3,7 +3,7 @@ package Lesson9_Homework;
 public class CheckTheOutput_3 {
     int a=1;
     static int b=2;
-    void abc(int a){
+    void abcd(int a){
         System.out.println(b);
         System.out.println(a);
         System.out.println(this.a);
@@ -12,6 +12,6 @@ public class CheckTheOutput_3 {
 
     public static void main(String[] args) {
         CheckTheOutput_3 ch=new CheckTheOutput_3();
-        ch.abc(4);
+        ch.abcd(4);
     }
 }

@@ -9,7 +9,7 @@ public class CheckTheOutput_1 {
     }
 
     public static void main(String[] args) {
-        CheckTheOutput_1 ch= new CheckTheOutput_1();
-        ch.abc(3);
+        CheckTheOutput_1 che= new CheckTheOutput_1();
+        che.abc(3);
     }
 }
